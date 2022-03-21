@@ -1058,6 +1058,14 @@ section {
     -ms-grid-columns: 25px 1fr;
         grid-template-columns: 25px 1fr;
   }
+  .contact-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .main-title h2 {
     font-size: 2rem;
   }
